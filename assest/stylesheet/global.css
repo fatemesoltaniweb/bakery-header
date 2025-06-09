@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    font-family: "Work Sans", sans-serif;
+    direction: ltr;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+    text-transform: capitalize;
+    color: inherit;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
